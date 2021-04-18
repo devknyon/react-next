@@ -1,5 +1,6 @@
 function Home () {
-    return <div>Home2</div>
+    return <div><a href="pages/teste.js">testando</a></div>
+
 
 }
 
