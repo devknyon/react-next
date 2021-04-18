@@ -9,11 +9,12 @@ export async function getStaticPaths() {
                 id: '2'
             }
         }],
-        fallback: false
+        fallback: 'blocking'
     }
 }
 
 export async function getStaticProps(context) {
+    await delay(1000);
     const id = context.params.id;
 
     return {
@@ -29,3 +30,8 @@ function Produtos(props) {
 }
 
 export default Produtos;
+
+function delay(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+    
+}
