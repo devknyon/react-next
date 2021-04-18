@@ -25,7 +25,10 @@ export async function getStaticProps(context) {
 
 }
 function Produtos(props) {
-    return <div>Id o protudo: {props.id}</div>
+    return  <div>
+            Id o protudo: {props.id}
+            <a href="/">home</a>
+            </div>
 
 }
 
