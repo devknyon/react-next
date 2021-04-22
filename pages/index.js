@@ -4,19 +4,6 @@ import web from '../pages/assets/style/webflow.module.css'
 function Home () {
 
     return <body className={style.body}>
-    <div data-collapse="medium" data-animation="default" data-duration="400" role="banner" className={style.navb}>
-      <div className={style.container}>
-        <a href="index.html" aria-current="page" className={style.brand}>
-          <p className={style.paragraph}>kNY DEV</p>
-        </a>
-        <nav role="navigation" className={style.navmenu}>
-          <a href="index.html" aria-current="page" className={style.navlink}>Home</a>
-        </nav>
-        <div className={style.menubutton}>
-          <div className={style.icon}></div>
-        </div>
-      </div>
-    </div>
     <div className={style.main}>
       <div className={style.news}>
         <div className={style.newquizes}>News</div>
