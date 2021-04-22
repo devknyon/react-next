@@ -8,25 +8,25 @@ function Home () {
       <div className={style.news}>
         <div className={style.newquizes}>News</div>
         <div className={style.newdiv}>
-          <a href="#" className={style.linkcard}>
+          <a href="/produtos/1" className={style.linkcard}>
             <div className={style.newscard}>
               <h1 className={style.namequiz}>Name Quiz</h1>
               <div className={style.newimage}></div>
             </div>
           </a>
-          <a href="#" className={style.linkcard}>
+          <a href="/produtos/2" className={style.linkcard}>
             <div className={style.newscard}>
               <h1 className={style.namequiz}>Name Quiz</h1>
               <div className={style.newimage}></div>
             </div>
           </a>
-          <a href="#" className={style.linkcard}>
+          <a href="/produtos/3" className={style.linkcard}>
             <div className={style.newscard}>
               <h1 className={style.namequiz}>Name Quiz</h1>
               <div className={style.newimage}></div>
             </div>
           </a>
-          <a href="#" className={style.linkcard}>
+          <a href="/produtos/4" className={style.linkcard}>
             <div className={style.newscard}>
               <h1 className={style.namequiz}>Name Quiz</h1>
               <div className={style.newimage}></div>
